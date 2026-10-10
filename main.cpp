@@ -1,6 +1,7 @@
 #include <iostream>
 #include "sword.hpp"
 #include "longsword.hpp"
+#include "rapier.hpp" 
 
 int main() {
     Sword s("Elucidator", 50);
@@ -15,6 +16,11 @@ int main() {
     Longsword l("Excalibur", 70, 5.0);
     l.attack();
     l.slash();
+
+    Rapier r("Lambent Light", 45, 10);
+    r.attack();
+    r.puncture();
+
     return 0;
 
 }
