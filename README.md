@@ -1,4 +1,5 @@
 Izin mas/mbak, jujur aku sendiri ga terlalu mengerti apa yang dimaksud dari dokumentasi buat program nya :'), jadi aku bakal ee.. buat apa yang ke ngerti aja ^_^"
+Oh ya sebelumnya aku minta maaf karena terlambat ^^"
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c157f8b8-3093-4df4-8416-da16b714d194" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cfe51d8e-a8f2-48b2-9ad7-90661c4db95f" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e43167a-5e8a-4c2a-8d21-a33e2a410508" />
