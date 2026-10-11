@@ -13,3 +13,7 @@ add_library(sword_lib STATIC
 add_executable(sword_app src/main.cpp) 
 
 target_link_libraries(sword_app sword_lib)
+install(TARGETS sword_app DESTINATION bin)
+install(TARGETS sword_lib DESTINATION lib)
+install(DIRECTORY include/ DESTINATION include/kpp1_sword)
+
