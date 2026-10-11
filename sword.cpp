@@ -3,7 +3,7 @@
 #include <iostream>
 
 Sword::Sword(const std::string &nama, int damage)
-    : nama_(nama), x_(0.0), y_(0.0) {
+    : nama_(nama){
     setDamage(damage);
 }
 
@@ -16,14 +16,6 @@ void Sword::setDamage(int damage) {
     } else {
         damage_ = damage;
     }
-}
-
-double Sword::getX() const { return x_; }
-double Sword::getY() const { return y_; }
-
-void Sword::move(double dx, double dy) {
-    x_ += dx;
-    y_ += dy;
 }
 
 void Sword::attack() const {
