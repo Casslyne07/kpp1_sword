@@ -29,3 +29,4 @@ Untuk Flowchart :
 <img width="192" height="1052" alt="Flowchart KPP 1" src="https://github.com/user-attachments/assets/a65590ad-eadd-4720-a1b4-5e574b5aa67d" />
 
 Drive Video : https://drive.google.com/file/d/1WTSIkSgOvtiduxz4fyzUTWCpkA_z737o/view?usp=drive_link
+Terimakasih mas dan mbak ^^
