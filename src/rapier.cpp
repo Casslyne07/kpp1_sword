@@ -7,7 +7,7 @@ Rapier::Rapier(const std::string &nama, int damage, int speed)
 
 int Rapier::getSpeed() const { return speed_; }
 
-void Rapier::puncture() const {
+void Rapier::attack() const {
     std::cout << getNama() << " melakukan tusukan dengan damage " << getDamage()  
     + speed_ * 2 << "\n";
 }

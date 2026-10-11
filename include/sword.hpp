@@ -11,13 +11,15 @@ private:
 
 public:
     Sword(const std::string &nama, int damage);
+    virtual ~Sword() = default;
 
     std::string getNama() const;
     int getDamage() const;
     void setDamage(int damage);
     
 
-    void attack() const;
+    virtual void attack() const;
+    
 };
 
 #endif 

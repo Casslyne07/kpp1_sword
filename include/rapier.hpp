@@ -11,7 +11,7 @@ public:
     Rapier(const std::string &nama, int damage, int speed);
 
     int getSpeed() const;
-    void puncture() const;
+    virtual void attack() const override;
 
 };
 #endif

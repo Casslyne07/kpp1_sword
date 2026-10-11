@@ -1,23 +1,22 @@
 #include <iostream>
+#include <vector>
+#include <memory>
+
+
 #include "sword.hpp"
 #include "longsword.hpp"
 #include "rapier.hpp" 
 
 int main() {
-    Sword s("Elucidator", 50);
-    s.attack();
+    std::vector<std::unique_ptr<Sword>> pedang;
+    pedang.push_back(std::make_unique<Sword>("Elucidator", 50));
+    pedang.push_back(std::make_unique<Longsword>("Excalibur", 70, 5.0));
+    pedang.push_back(std::make_unique<Rapier>("Lambent Light", 40, 10));
 
-    s.setDamage(-10);   
-    s.attack();
-
-    Longsword l("Excalibur", 70, 5.0);
-    l.attack();
-    l.slash();
-
-    Rapier r("Lambent Light", 45, 10);
-    r.attack();
-    r.puncture();
-
+    for (const auto& p :pedang){
+        p->attack();
+    }
+    
     return 0;
 
 }

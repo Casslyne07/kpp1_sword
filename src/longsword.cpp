@@ -8,7 +8,7 @@ Longsword::Longsword(const std::string &nama, int damage, double weight)
 double Longsword::getWeight() const { return weight_; }
 
 
-void Longsword::slash() const {
+void Longsword::attack() const {
     std::cout << getNama() << " melakukan slash dengan damage " << getDamage()  
     + weight_ * 3 << "\n";
 

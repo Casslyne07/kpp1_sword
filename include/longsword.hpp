@@ -11,7 +11,7 @@ public:
     Longsword(const std::string &nama, int damage, double weight);
 
     double getWeight() const;
-    void slash() const;
+    virtual void attack() const override;
 
 };
 #endif
